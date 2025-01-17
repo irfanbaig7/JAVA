@@ -5,3 +5,48 @@ used for building large-scale, high-performance
 applications. Java is platform-independent due 
 to its architecture of "Write Once, Run 
 Anywhere" (WORA).
+
+
+
+2. Data Types and Variables
+In Java, variables must be declared with a specific data type. The data types in Java are broadly classified into Primitive and Reference Types.
+
+Primitive Data Types:
+byte, short, int, long
+float, double
+char, boolean
+
+
+
+3. Control Flow: If-Else, Switch, and Loops
+Control flow structures in Java help manage the flow of execution.
+
+If-Else checks conditions sequentially.
+Switch allows multiple conditions to be checked more cleanly.
+
+
+
+4. Object-Oriented Programming (OOP) in Java
+OOP is a paradigm based on the concept of "objects" which can contain data (fields) and code (methods).
+
+4.1 Classes and Objects
+A class is a blueprint for creating objects. Objects are instances of classes.
+Constructor is used to initialize objects.
+The method displayDetails() prints the object's properties.
+
+4.2 Inheritance
+Inheritance allows a new class to inherit properties and methods from an existing class.
+The Dog class inherits from the Animal class and can use its methods.
+Method Overriding allows modifying behavior in subclasses.
+
+4.3 Polymorphism
+Polymorphism allows methods to have the same name but behave differently based on the object.
+Example Program: Method Overloading and Overriding.
+Method Overloading allows multiple methods with the same name but different parameters.
+Method Overriding enables subclass methods to provide specific implementations.
+
+4.4 Abstraction
+Abstraction ka matlab hai ki sirf important details ko show karna aur unnecessary details ko hide karna. Yeh ek blueprint (interface ya abstract class) provide karta hai, jo functionality define karta hai, lekin implementation detail hide karta hai.
+
+4.5 Encapsulation
+Encapsulation ka matlab hai ki data ko aur uske operations ko ek unit (class) ke andar wrap karna aur direct access ko restrict karna (generally private access modifier ke through).
