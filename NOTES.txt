@@ -1,0 +1,7 @@
+1. Introduction to Java: Basics
+Java is a class-based, object-oriented 
+programming (OOP) language that is widely 
+used for building large-scale, high-performance 
+applications. Java is platform-independent due 
+to its architecture of "Write Once, Run 
+Anywhere" (WORA).
