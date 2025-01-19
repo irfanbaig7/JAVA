@@ -1,25 +1,30 @@
-
-import java.util.Scanner;
-
 public class ControlFlow {
     public static void main(String[] args) {
-
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter Your Age : ");
-        int age = sc.nextInt();
-
-        if (age >= 18 && age <= 21) {
-            System.out.println("You are an ADULT");
-        } else if (age >= 22) {
-            System.out.println("You are an MATURE/MEN");
+        // 1. If-Else Statement
+        int age = 20;
+        System.out.println("If-Else Statement:");
+        if (age >= 18) {
+            System.out.println("You are eligible to vote.");
         } else {
-            System.out.println("You are a TEENAGER/CHILD");
+            System.out.println("You are not eligible to vote.");
         }
 
-        // Switch CASES
+        // 2. If-Else-If Ladder
+        int marks = 85;
+        System.out.println("\nIf-Else-If Ladder:");
+        if (marks >= 90) {
+            System.out.println("Grade: A");
+        } else if (marks >= 75) {
+            System.out.println("Grade: B");
+        } else if (marks >= 50) {
+            System.out.println("Grade: C");
+        } else {
+            System.out.println("Grade: F");
+        }
 
-        System.out.print("Enter the day bertween 1 to 3 : ");
-        int day = sc.nextInt();
+        // 3. Switch Statement
+        int day = 3;
+        System.out.println("\nSwitch Statement:");
         switch (day) {
             case 1:
                 System.out.println("Monday");
@@ -27,11 +32,31 @@ public class ControlFlow {
             case 2:
                 System.out.println("Tuesday");
                 break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
             default:
-                System.out.println("Other Day");
-
+                System.out.println("Weekend");
+                break;
         }
 
-        sc.close();
+        // 9. Return Statement
+        System.out.println("\nReturn Statement:");
+        printMessage(0);
+    }
+
+    // Method to demonstrate return statement
+    public static void printMessage(int value) {
+        if (value == 0) {
+            System.out.println("Value is zero, exiting method.");
+            return; // Exit the method
+        }
+        System.out.println("Value is: " + value);
     }
 }

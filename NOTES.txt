@@ -12,17 +12,85 @@ Anywhere" (WORA).
 In Java, variables must be declared with a specific data type. The data types in Java are broadly classified into Primitive and Reference Types.
 
 Primitive Data Types:
-byte, short, int, long
-float, double
-char, boolean
+
+byte: 8-bit signed integer.
+short: 16-bit signed integer.
+int: 32-bit signed integer.
+long: 64-bit signed integer.
+float: 32-bit floating-point.
+double: 64-bit floating-point.
+char: 16-bit Unicode character.
+boolean: Represents true or false.
+
+Primitive data types have default values when declared as instance variables but not initialized.
+For example:
+byte → 0
+boolean → false
+char → \u0000 (empty character)
+
+
+Non-Primitive Data Types:
+
+String: A sequence of characters.
+Array: A collection of elements of the same type.
+Default Values:
 
 
 
-3. Control Flow: If-Else, Switch, and Loops
-Control flow structures in Java help manage the flow of execution.
 
-If-Else checks conditions sequentially.
-Switch allows multiple conditions to be checked more cleanly.
+
+3. Operators
+
+Arithmetic Operators: Perform basic mathematical operations.
+
+Relational Operators: Compare two values and return a boolean result.
+
+Logical Operators: Perform logical operations on boolean values.
+
+Bitwise Operators: Operate on binary representations of numbers.
+
+Assignment Operators: Assign values to variables with shorthand for operations.
+
+Unary Operators: Operate on a single variable.
+
+Ternary Operator: A shorthand for if-else.
+
+Instanceof Operator: Checks if an object is of a specific class/type.
+
+Type Casting: Converts one data type to another explicitly.
+
+
+
+
+4. Control Flow & Loops
+
+If-Else Statement:
+Executes a block of code if a condition is true; otherwise, executes the else block.
+
+If-Else-If Ladder:
+Used to test multiple conditions.
+
+Switch Statement:
+Executes a block of code based on the value of a variable.
+
+For Loop:
+Used for iterating a fixed number of times.
+
+While Loop:
+Executes as long as a condition is true.
+
+Do-While Loop:
+Executes at least once before checking the condition.
+
+Break Statement:
+Exits a loop prematurely.
+
+Continue Statement:
+Skips the rest of the current loop iteration and proceeds with the next iteration.
+
+Return Statement:
+Exits a method and optionally returns a value.
+
 
 
 
